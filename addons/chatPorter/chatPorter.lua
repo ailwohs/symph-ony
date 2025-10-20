@@ -31,6 +31,7 @@ _addon.name = 'ChatPorter'
 _addon.version = '1.39'
 _addon.author = 'Ikonic'
 _addon.commands = {'ChatPorter','cp'}
+_addon.teste = 'Icon'
 
 require('tables')
 require('strings')
