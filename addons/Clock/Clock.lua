@@ -20,7 +20,6 @@ local tz_format = {}
 for tz in time_zones:keyset():it() do
     tz_format[tz:upper()] = tz:gsub('%d', '')
 end
-
 defaults = {}
 defaults.Format = '%H:%M:%S'
 defaults.TimeZones = L{'UTC', 'JST'}
